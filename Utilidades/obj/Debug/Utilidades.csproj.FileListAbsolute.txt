@@ -1,0 +1,6 @@
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\bin\Debug\Utilidades.dll
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\bin\Debug\Utilidades.pdb
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\obj\Debug\Utilidades.csproj.AssemblyReference.cache
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\obj\Debug\Utilidades.csproj.CoreCompileInputs.cache
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\obj\Debug\Utilidades.dll
+D:\Usuarios\eduh\Documentos\ULHI\DI\DI_UD_04\DIUD04TE01\Utilidades\obj\Debug\Utilidades.pdb

@@ -287,7 +287,7 @@ namespace DIUD05TE01.Formulario
 
         private void manualDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //Cargar ayuda
         }
 
         private void versionToolStripMenuItem_Click(object sender, EventArgs e)

@@ -31,7 +31,7 @@ namespace DIUD05TE01.Formulario.PopUp
         {
             this.textBoxVersion = new System.Windows.Forms.TextBox();
             this.labelTitulo = new System.Windows.Forms.Label();
-            this.buttonVersion = new System.Windows.Forms.Button();
+            this.buttonDatosLogin = new System.Windows.Forms.Button();
             this.buttonCerrar = new System.Windows.Forms.Button();
             this.labelVersion = new System.Windows.Forms.Label();
             this.helpProviderVersion = new System.Windows.Forms.HelpProvider();
@@ -41,12 +41,12 @@ namespace DIUD05TE01.Formulario.PopUp
             // 
             this.textBoxVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProviderVersion.SetHelpString(this.textBoxVersion, "Datos del creador del Dashboard");
-            this.textBoxVersion.Location = new System.Drawing.Point(91, 103);
+            this.textBoxVersion.Location = new System.Drawing.Point(55, 103);
             this.textBoxVersion.Multiline = true;
             this.textBoxVersion.Name = "textBoxVersion";
             this.textBoxVersion.ReadOnly = true;
             this.helpProviderVersion.SetShowHelp(this.textBoxVersion, true);
-            this.textBoxVersion.Size = new System.Drawing.Size(302, 66);
+            this.textBoxVersion.Size = new System.Drawing.Size(353, 66);
             this.textBoxVersion.TabIndex = 0;
             this.textBoxVersion.Text = "Creado por Eduardo Hernandez\r\nAlumno de Birt LH\r\nDAM Curso 2021-2022";
             // 
@@ -55,33 +55,33 @@ namespace DIUD05TE01.Formulario.PopUp
             this.labelTitulo.AutoSize = true;
             this.labelTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitulo.ForeColor = System.Drawing.Color.Teal;
-            this.labelTitulo.Location = new System.Drawing.Point(85, 9);
+            this.labelTitulo.Location = new System.Drawing.Point(49, 9);
             this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(308, 32);
+            this.labelTitulo.Size = new System.Drawing.Size(359, 32);
             this.labelTitulo.TabIndex = 1;
-            this.labelTitulo.Text = "Dashboard Northwind";
+            this.labelTitulo.Text = "Northwind Dashboard 1.0";
             // 
-            // buttonVersion
+            // buttonDatosLogin
             // 
-            this.buttonVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helpProviderVersion.SetHelpString(this.buttonVersion, "Muestra/Oculta versión del dashboard");
-            this.buttonVersion.Location = new System.Drawing.Point(263, 190);
-            this.buttonVersion.Name = "buttonVersion";
-            this.helpProviderVersion.SetShowHelp(this.buttonVersion, true);
-            this.buttonVersion.Size = new System.Drawing.Size(90, 28);
-            this.buttonVersion.TabIndex = 2;
-            this.buttonVersion.Text = "Versión";
-            this.buttonVersion.UseVisualStyleBackColor = true;
-            this.buttonVersion.Click += new System.EventHandler(this.buttonVersion_Click);
+            this.buttonDatosLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpProviderVersion.SetHelpString(this.buttonDatosLogin, "Muestra/Oculta datos conexión BD");
+            this.buttonDatosLogin.Location = new System.Drawing.Point(172, 190);
+            this.buttonDatosLogin.Name = "buttonDatosLogin";
+            this.helpProviderVersion.SetShowHelp(this.buttonDatosLogin, true);
+            this.buttonDatosLogin.Size = new System.Drawing.Size(123, 28);
+            this.buttonDatosLogin.TabIndex = 2;
+            this.buttonDatosLogin.Text = "Datos Login";
+            this.buttonDatosLogin.UseVisualStyleBackColor = true;
+            this.buttonDatosLogin.Click += new System.EventHandler(this.buttonVersion_Click);
             // 
             // buttonCerrar
             // 
             this.buttonCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpProviderVersion.SetHelpString(this.buttonCerrar, "Cierra el PopUp");
-            this.buttonCerrar.Location = new System.Drawing.Point(369, 190);
+            this.buttonCerrar.Location = new System.Drawing.Point(314, 190);
             this.buttonCerrar.Name = "buttonCerrar";
             this.helpProviderVersion.SetShowHelp(this.buttonCerrar, true);
-            this.buttonCerrar.Size = new System.Drawing.Size(89, 28);
+            this.buttonCerrar.Size = new System.Drawing.Size(99, 28);
             this.buttonCerrar.TabIndex = 3;
             this.buttonCerrar.Text = "Cerrar";
             this.buttonCerrar.UseVisualStyleBackColor = true;
@@ -92,11 +92,11 @@ namespace DIUD05TE01.Formulario.PopUp
             this.labelVersion.AutoSize = true;
             this.labelVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVersion.ForeColor = System.Drawing.Color.Teal;
-            this.labelVersion.Location = new System.Drawing.Point(85, 52);
+            this.labelVersion.Location = new System.Drawing.Point(49, 53);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(170, 32);
+            this.labelVersion.Size = new System.Drawing.Size(345, 32);
             this.labelVersion.TabIndex = 4;
-            this.labelVersion.Text = "Versión 1.3";
+            this.labelVersion.Text = "User: di Password: 1234";
             this.labelVersion.Visible = false;
             // 
             // FormPopUp
@@ -106,7 +106,7 @@ namespace DIUD05TE01.Formulario.PopUp
             this.ClientSize = new System.Drawing.Size(470, 235);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.buttonCerrar);
-            this.Controls.Add(this.buttonVersion);
+            this.Controls.Add(this.buttonDatosLogin);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.textBoxVersion);
             this.HelpButton = true;
@@ -124,7 +124,7 @@ namespace DIUD05TE01.Formulario.PopUp
 
         private System.Windows.Forms.TextBox textBoxVersion;
         private System.Windows.Forms.Label labelTitulo;
-        private System.Windows.Forms.Button buttonVersion;
+        private System.Windows.Forms.Button buttonDatosLogin;
         private System.Windows.Forms.Button buttonCerrar;
         private System.Windows.Forms.Label labelVersion;
         private System.Windows.Forms.HelpProvider helpProviderVersion;

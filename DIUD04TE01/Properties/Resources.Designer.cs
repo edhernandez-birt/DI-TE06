@@ -61,6 +61,16 @@ namespace DIUD05TE01.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] AyudaDashboard {
+            get {
+                object obj = ResourceManager.GetObject("AyudaDashboard", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap dollarBag {

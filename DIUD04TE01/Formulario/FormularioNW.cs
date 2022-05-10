@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -287,8 +288,19 @@ namespace DIUD05TE01.Formulario
 
         private void manualDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Cargar ayuda
-        }
+            //Ruta relativa
+            Help.ShowHelp(this, @"..\..\Resources\AyudaDashboard.chm");
+
+            //Ayuda encontrada:
+            //https://docs.microsoft.com/en-us/answers/questions/241652/c-relative-absolute-path.html?msclkid=4d43b433d08111ec9214c55917b8b0bc
+            //string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            //string sFile = System.IO.Path.Combine(sCurrentDirectory, @"..\..\Resources\AyudaDashboard.chm");
+            //string sFilePath = Path.GetFullPath(sFile);
+            // Help.ShowHelp(this, sFilePath);
+
+            //Con ruta absoluta:
+            //Help.ShowHelp(this, "file:D:\\GIT\\DI06TE01\\DI-TE06\\DIUD04TE01\\Resources\\AyudaDashboard.chm");
+        }   
 
         private void versionToolStripMenuItem_Click(object sender, EventArgs e)
         {

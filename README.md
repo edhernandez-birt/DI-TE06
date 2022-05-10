@@ -35,7 +35,6 @@ Este manual está organizado en los siguientes apartados:
 
 
 
-
 - [About](#about)
 - [Contacto](#contacto)
 - [Referencias](#referencias)
@@ -46,7 +45,7 @@ Este manual está organizado en los siguientes apartados:
 ## About
 
 El proyecto consta de una interfaz gráfica, que contiene un Dashboard que facilita el acceso a informes a partir de datos de la BD de Northwind.
-Está programado en C# (plataforma .Net). Elementos utilizados:
+Está programado en C# (plataforma .Net), destacando la utilización de los siguientes elementos:
 
 - Formularios
 - Controles de usuario
@@ -54,7 +53,7 @@ Está programado en C# (plataforma .Net). Elementos utilizados:
 - Informes SSRS
 - ToolTip
 - HelpProvider
-- Ficheros CHM
+- Fichero de ayuda CHM
 
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
@@ -99,6 +98,6 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://es.wikipedia.org/wiki/Licencia_MIT?msclkid=b245d330cf2411ecbb0ca00e000c1341
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com
+[linkedin-url]: https://www.linkedin.com
 [twitter-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [twitter-url]: https://twitter.com

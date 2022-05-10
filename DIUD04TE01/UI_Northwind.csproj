@@ -419,6 +419,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\AyudaDashboard.chm" />
     <None Include="SSRS\InformeFacturacionTipo.rdl" />
     <None Include="SSRS\InformeFacturacionVendedores.rdl" />
     <None Include="SSRS\InformeMejoresClientes.rdl" />

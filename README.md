@@ -4,7 +4,8 @@
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Birt_LH)](https://twitter.com/Birt_LH)
+[![Twitter][twitter-shield]][twitter-url]
+
 
 Readme del repositorio de la tarea de evaluación de la unidad didáctica 6 de Desarrollo de interfaces (DAM).
 
@@ -15,7 +16,7 @@ Readme del repositorio de la tarea de evaluación de la unidad didáctica 6 de D
 Este manual está organizado en los siguientes apartados:
 
 
-<details>
+<details open>
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
@@ -34,26 +35,22 @@ Este manual está organizado en los siguientes apartados:
 </details>
 
 
-
-- [About](#about)
-- [Contacto](#contacto)
-- [Referencias](#referencias)
-
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
 
-## About
+## About (sobre el proyecto)
 
-El proyecto consta de una interfaz gráfica, que contiene un Dashboard que facilita el acceso a informes a partir de datos de la BD de Northwind.
+El proyecto consta de una interfaz gráfica, que contiene un Dashboard que facilita el acceso a datos de la BD de Northwind, así como a diversos informes.
+
 Está programado en C# (plataforma .Net), destacando la utilización de los siguientes elementos:
 
 - Formularios
 - Controles de usuario
+- ToolTips
+- HelpProviders
+- Fichero de ayuda CHM
 - Informes Crystal Report
 - Informes SSRS
-- ToolTip
-- HelpProvider
-- Fichero de ayuda CHM
 
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
@@ -85,7 +82,7 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 * [SQL Server Report Services SSRS](https://docs.microsoft.com/es-es/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15)
 
 
-## Puntuacion
+## Puntuacion del readme
 
 * Índice: Tabla de contenidos con los apartados de abajo (1p)
 
@@ -99,5 +96,5 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 [license-url]: https://es.wikipedia.org/wiki/Licencia_MIT?msclkid=b245d330cf2411ecbb0ca00e000c1341
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com
-[twitter-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[twitter-url]: https://twitter.com
+[twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=twitter&colorB=555
+[twitter-url]: https://twitter.com/Birt_LH

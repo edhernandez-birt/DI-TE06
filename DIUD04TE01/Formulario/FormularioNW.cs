@@ -289,17 +289,31 @@ namespace DIUD05TE01.Formulario
         private void manualDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Ruta relativa
-            Help.ShowHelp(this, @"..\..\Resources\AyudaDashboard.chm");
+            //Help.ShowHelp(this, @"..\..\Resources\AyudaDashboard.chm");
 
             //Ayuda encontrada:
             //https://docs.microsoft.com/en-us/answers/questions/241652/c-relative-absolute-path.html?msclkid=4d43b433d08111ec9214c55917b8b0bc
             //string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
             //string sFile = System.IO.Path.Combine(sCurrentDirectory, @"..\..\Resources\AyudaDashboard.chm");
             //string sFilePath = Path.GetFullPath(sFile);
-            // Help.ShowHelp(this, sFilePath);
+            //Help.ShowHelp(this, sFilePath);
 
             //Con ruta absoluta:
             //Help.ShowHelp(this, "file:D:\\GIT\\DI06TE01\\DI-TE06\\DIUD04TE01\\Resources\\AyudaDashboard.chm");
+
+            //La version definitiva: https://stackoverflow.com/questions/32554628/showing-help-file-chm-from-executable
+            string fbPath = Application.StartupPath;
+            string fname = "AyudaDashboard.chm";
+            string filename = fbPath + @"\" + fname;
+            FileInfo fi = new FileInfo(filename);
+            if (fi.Exists)
+            {
+                Help.ShowHelp(this, filename);
+            } else
+            {
+                Help.ShowHelp(this, @"..\..\Resources\AyudaDashboard.chm");
+            }
+
         }   
 
         private void versionToolStripMenuItem_Click(object sender, EventArgs e)

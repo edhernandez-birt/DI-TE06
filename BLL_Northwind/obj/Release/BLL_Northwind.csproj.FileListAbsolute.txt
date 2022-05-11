@@ -1,0 +1,13 @@
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\BLL_Northwind.dll.config
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\BLL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\BLL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\DAL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\DAL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\DAL_Northwind.dll.config
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Release\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Release\BLL_Northwind.csproj.AssemblyReference.cache
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Release\BLL_Northwind.csproj.CoreCompileInputs.cache
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Release\BLL_Northwind.csproj.CopyComplete
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Release\BLL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Release\BLL_Northwind.pdb

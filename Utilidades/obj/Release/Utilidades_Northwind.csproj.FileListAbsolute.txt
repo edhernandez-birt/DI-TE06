@@ -1,0 +1,5 @@
+D:\GIT\DI06TE01\DI-TE06\Utilidades\bin\Release\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\Utilidades\bin\Release\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Release\Utilidades_Northwind.csproj.CoreCompileInputs.cache
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Release\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Release\Utilidades.pdb

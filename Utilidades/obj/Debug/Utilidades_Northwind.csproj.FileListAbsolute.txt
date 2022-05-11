@@ -16,3 +16,9 @@ D:\Usuarios\eduh\Escritorio\DIUD05TE01\Utilidades\obj\Debug\Utilidades_Northwind
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\Utilidades\obj\Debug\Utilidades_Northwind.csproj.CoreCompileInputs.cache
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\Utilidades\obj\Debug\Utilidades.dll
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\Utilidades\obj\Debug\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\Utilidades\bin\Debug\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\Utilidades\bin\Debug\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Debug\Utilidades_Northwind.csproj.AssemblyReference.cache
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Debug\Utilidades_Northwind.csproj.CoreCompileInputs.cache
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Debug\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\Utilidades\obj\Debug\Utilidades.pdb

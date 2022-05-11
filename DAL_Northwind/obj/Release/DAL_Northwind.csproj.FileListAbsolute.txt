@@ -1,0 +1,12 @@
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\DAL_Northwind.dll.config
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\DAL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\DAL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\System.Data.SqlClient.dll
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\bin\Release\System.Data.SqlClient.xml
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Release\DAL_Northwind.csproj.AssemblyReference.cache
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Release\DAL_Northwind.csproj.CoreCompileInputs.cache
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Release\DAL_Northwind.csproj.CopyComplete
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Release\DAL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Release\DAL_Northwind.pdb

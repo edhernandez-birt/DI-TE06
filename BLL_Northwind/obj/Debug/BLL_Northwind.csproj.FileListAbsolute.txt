@@ -37,3 +37,16 @@ D:\Usuarios\eduh\Escritorio\DIUD05TE01\BLL_Northwind\obj\Debug\BLL_Northwind.csp
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\BLL_Northwind\obj\Debug\BLL_Northwind.csproj.CopyComplete
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\BLL_Northwind\obj\Debug\BLL_Northwind.dll
 D:\Usuarios\eduh\Escritorio\DIUD05TE01\BLL_Northwind\obj\Debug\BLL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\BLL_Northwind.dll.config
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\BLL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\BLL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\DAL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\Utilidades.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\DAL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\DAL_Northwind.dll.config
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\bin\Debug\Utilidades.pdb
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Debug\BLL_Northwind.csproj.AssemblyReference.cache
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Debug\BLL_Northwind.csproj.CoreCompileInputs.cache
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Debug\BLL_Northwind.csproj.CopyComplete
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Debug\BLL_Northwind.dll
+D:\GIT\DI06TE01\DI-TE06\BLL_Northwind\obj\Debug\BLL_Northwind.pdb

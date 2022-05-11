@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Northwind", "DAL_Northw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Northwind", "BLL_Northwind\BLL_Northwind.csproj", "{145A743A-C8FC-4F5D-B586-9933318AD70F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorDI06", "InstaladorDI06\InstaladorDI06.vdproj", "{10D73892-0E9F-4992-8E2D-3A1DA322A408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,15 @@ Global
 		{145A743A-C8FC-4F5D-B586-9933318AD70F}.Release|x64.Build.0 = Release|Any CPU
 		{145A743A-C8FC-4F5D-B586-9933318AD70F}.Release|x86.ActiveCfg = Release|Any CPU
 		{145A743A-C8FC-4F5D-B586-9933318AD70F}.Release|x86.Build.0 = Release|Any CPU
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Debug|Any CPU.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Debug|x64.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Debug|x86.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.DebugLocal|Any CPU.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.DebugLocal|x64.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.DebugLocal|x86.ActiveCfg = Debug
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Release|Any CPU.ActiveCfg = Release
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Release|x64.ActiveCfg = Release
+		{10D73892-0E9F-4992-8E2D-3A1DA322A408}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

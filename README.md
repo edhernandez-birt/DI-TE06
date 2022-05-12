@@ -6,10 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
 
-
-Readme del repositorio de la tarea de evaluación de la unidad didáctica 6 de Desarrollo de interfaces (DAM).
-
-
+Readme del repositorio de la tarea de evaluación de la unidad didáctica 6 de Desarrollo de interfaces (DAM - BirtLH).
 
 ## Índice
 
@@ -20,7 +17,7 @@ Este manual está organizado en los siguientes apartados:
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#about">About (sobre el proyecto)</a>
+      <a href="#about">About</a>
     </li>
     <li><a href="#contacto">Contacto</a></li>
     <li>
@@ -28,6 +25,7 @@ Este manual está organizado en los siguientes apartados:
       <ul>
         <li><a href="#crystalreports">Crystal Reports</a></li>
         <li><a href="#ssrs">SSRS</a></li>
+        <li><a href="#chm">Ayuda fichero .chm</a></li>
       </ul>
     </li>
     <li><a href="#puntuacion">Puntuación del readme</a></li>
@@ -38,7 +36,7 @@ Este manual está organizado en los siguientes apartados:
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
 
-## About (sobre el proyecto)
+## About
 
 El proyecto consta de una interfaz gráfica, que contiene un Dashboard que facilita el acceso a datos de la BD de Northwind, así como a diversos informes.
 
@@ -48,9 +46,12 @@ Está programado en C# (plataforma .Net), destacando la utilización de los sigu
 - Controles de usuario
 - ToolTips
 - HelpProviders
-- Fichero de ayuda CHM
+- Fichero de ayuda .CHM
 - Informes Crystal Report
 - Informes SSRS
+
+El instalador del proyecto se encuentra en:
+[InstaladorDI06.msi](https://github.com/edhernandez-birt/DI-TE06/blob/main/InstaladorDI06/Release/InstaladorDI06.msi)
 
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
@@ -68,21 +69,30 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 
 ### CrystalReports
 
+* [Descarga de SAP Crystal Reports, versión para Visual Studio](https://www.sap.com/cmp/td/sap-crystal-reports-visual-studio-trial.html?msclkid=ff7cced6cf1f11ec867a362ecaf6c4f7&trial=https%3A%2F%2Fwww.sap.com%2Fregistration%2Ftrial.9a4afb3b-7eaa-42af-98ce-abeae5deb784.html)
+
 ![GitHub Brillante](https://i.ytimg.com/vi/luaVMPMZzOQ/maxresdefault.jpg#gh-dark-mode-only)
 
-* [Crystal Reports](https://www.sap.com/cmp/td/sap-crystal-reports-visual-studio-trial.html?msclkid=ff7cced6cf1f11ec867a362ecaf6c4f7&trial=https%3A%2F%2Fwww.sap.com%2Fregistration%2Ftrial.9a4afb3b-7eaa-42af-98ce-abeae5deb784.html)
 
 ### SSRS
-<div id="SSRS"></div>
+
+* [Documentacion SQL Server Report Services SSRS](https://docs.microsoft.com/es-es/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15)
 
 ![GitHub Brillante](https://futureaims.com/wp-content/uploads/2017/03/SSRS-Logo.png#gh-dark-mode-only)
 
+* Para que aparzca el Report Viewer en la toolbox de MVS:
+
+  - https://makolyte.com/reportviewer-doesnt-appear-in-the-toolbox-in-visual-studio/
+
 <p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
-* [SQL Server Report Services SSRS](https://docs.microsoft.com/es-es/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15)
+### CHM
+
+* Para poner un libro en vez de la carpeta en la ayuda .chm:
+  - https://social.msdn.microsoft.com/Forums/azure/en-US/e153d2ca-db54-48e3-be27-25e61c57ec4b/how-to-add-a-topic-book-to-a-project?forum=visualstudiogeneral
 
 
-## Puntuacion del readme
+## Puntuacion
 
 * Índice: Tabla de contenidos con los apartados de abajo (1p)
 

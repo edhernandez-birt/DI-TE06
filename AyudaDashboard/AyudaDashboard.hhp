@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaDashboard.chm
+Contents file=Contents.hhc
+Default topic=htm\introduccion.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0xc0a Español (España, internacional)
+
+
+[FILES]
+htm\activarBotones.htm
+htm\informesCR.htm
+htm\informesSSRS.htm
+htm\introduccion.htm
+htm\licencia.htm
+htm\justificacion.htm
+htm\barraLateral.htm
+htm\dashBoardCliente.htm
+htm\dashboardTodos.htm
+htm\faq.htm
+htm\zonaSuperior.htm
+
+[INFOTYPES]
+

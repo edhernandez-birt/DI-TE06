@@ -84,13 +84,13 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 
   - https://makolyte.com/reportviewer-doesnt-appear-in-the-toolbox-in-visual-studio/
 
-<p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
 ### CHM
 
 * Para poner un libro en vez de la carpeta en la ayuda .chm:
   - https://social.msdn.microsoft.com/Forums/azure/en-US/e153d2ca-db54-48e3-be27-25e61c57ec4b/how-to-add-a-topic-book-to-a-project?forum=visualstudiogeneral
 
+<p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
 ## Puntuacion
 
@@ -101,6 +101,8 @@ Project Link: [https://github.com/edhernandez-birt/DI-TE06](https://github.com/e
 * Contacto: Escribe una descripción breve sobre ti y añade un correo electrónico para poder contactar contigo (el correo no tiene porque ser de verdad). (1p)
 
 * Referencias: Añade las referencias bibliográficas con enlaces que consideres oportunas. (1p)
+
+<p align="right">(<a href="#top">Volver a inicio</a>)</p>
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://es.wikipedia.org/wiki/Licencia_MIT?msclkid=b245d330cf2411ecbb0ca00e000c1341

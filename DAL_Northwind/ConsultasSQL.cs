@@ -236,7 +236,7 @@ namespace DAL_Northwind
         /// <returns>List<PedidoVO></returns>
         public static List<PedidoVO> ListaPedidosCliente(string cliente)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=edu;Password=1234");
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=di;Password=1234");
             SqlCommand command;
             string sql = "select * from dbo.Orders where CustomerID='" + cliente + "'";
             SqlDataReader datos;
@@ -307,7 +307,7 @@ namespace DAL_Northwind
         /// <returns> List<ProductoVendidoPorVendedorDTO></returns>
         public static List<ProductoVendidoPorVendedorDTO> ProductosMasVendidosPorVendedor()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=edu;Password=1234");
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=di;Password=1234");
             SqlCommand command;
             string sql = @"WITH salesData AS (
                 SELECT Firstname, LastName, ProductName, Sales,
@@ -363,7 +363,7 @@ namespace DAL_Northwind
 
         public static List<ProductoVendidoPorVendedorDTO> ProductosVendidosPorVendedorCliente(string cliente, string orden)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=edu;Password=1234");
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=di;Password=1234");
             SqlCommand command;
             string sql = "WITH salesData AS(SELECT Firstname, LastName, ProductName, Sales, ROW_NUMBER() OVER(PARTITION BY Firstname, LastName ORDER BY Sales "+orden+" ) AS Seq ";
             sql += "FROM (SELECT e.FirstName,e.LastName, p.ProductName, SUM(od.UnitPrice * od.Quantity * (1 - Discount)) AS Sales ";
@@ -410,7 +410,7 @@ namespace DAL_Northwind
         /// <returns>List<ProductoVendidoPorVendedorDTO></returns>
         public static List<ProductoVendidoPorVendedorDTO> ProductosMenosVendidosPorVendedor()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=edu;Password=1234");
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=di;Password=1234");
             SqlCommand command;
             string sql = @"WITH salesData AS (
                 SELECT Firstname, LastName, ProductName, Sales,
@@ -470,7 +470,7 @@ namespace DAL_Northwind
         /// <returns>List<FacturacionRegionDTO></returns>
         public static List<FacturacionRegionDTO> ListaFacturacionRegiones()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=edu;Password=1234");
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=Northwind;User ID=di;Password=1234");
             SqlCommand command;
             string sql = @"WITH    EmployeeSales
           AS(SELECT   e.EmployeeID,

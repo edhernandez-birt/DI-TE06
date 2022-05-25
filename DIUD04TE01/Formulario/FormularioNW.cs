@@ -308,7 +308,7 @@ namespace DIUD05TE01.Formulario
             FileInfo fi = new FileInfo(filename);
             if (fi.Exists)
             {
-                Help.ShowHelp(this, filename);
+              //  Help.ShowHelp(this, filename);
             } else
             {
                 Help.ShowHelp(this, @"..\..\Resources\AyudaDashboard.chm");

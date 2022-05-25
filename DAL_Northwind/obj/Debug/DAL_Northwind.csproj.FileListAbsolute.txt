@@ -45,3 +45,4 @@ D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Debug\DAL_Northwind.csproj.CoreCompile
 D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Debug\DAL_Northwind.csproj.CopyComplete
 D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Debug\DAL_Northwind.dll
 D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Debug\DAL_Northwind.pdb
+D:\GIT\DI06TE01\DI-TE06\DAL_Northwind\obj\Debug\DAL_Northwind.csproj.AssemblyReference.cache
